@@ -1,0 +1,10 @@
+{
+    "UE-CP":{
+	"start":["gte"],
+	"watch":["msue", "rrc"]
+    },
+    "UE-UP":{
+	"start":["pdcp", "cipher", "nam"],
+	"watch":["pdcp", "cipher-snow3g", "cipher-aes", "nam"]
+    }
+}
